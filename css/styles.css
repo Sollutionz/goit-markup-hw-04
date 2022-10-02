@@ -439,11 +439,7 @@ ul {
 
 .clients {
   display: inline-block;
-}
-
-.clients:hover,
-.clients:focus {
-  fill: var(--accent-color);
+  fill: #afb1b8;
 }
 
 .clients-item {
@@ -454,12 +450,19 @@ ul {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: var(--secondary-color);
 }
 
 .clients-item:hover,
 .clients-item:focus {
+  color: var(--accent-color);
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
+}
+
+.clients:hover,
+.clients:focus {
+  fill: var(--accent-color);
 }
 
 .clients-item:not(:last-child) {
